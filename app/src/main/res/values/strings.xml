@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">成语典故</string>
+    
+    <string name="data_name_default">chengyudiangu.pin</string>
+    
+    <string-array name="dict_select_eng_list">
+        <item >朗文当代</item>
+        <item >英汉词典</item>
+        <item >英英词典</item>
+	</string-array>
+	
+	<string-array name="dict_select_chi_list">
+        <item >实用汉英</item>
+	    <item >成语词典</item>
+	    <item >现代汉语</item>
+	</string-array>
+	
+	<string name="search_hint">输入查找汉字</string>
+
+</resources>

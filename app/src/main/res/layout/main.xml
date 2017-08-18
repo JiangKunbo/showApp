@@ -1,0 +1,98 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:splitMotionEvents="false"
+    tools:context="AsmAppActivity" >
+
+    <com.readboy.showappdemo.view.AsmAnimView
+        android:id="@+id/animview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.readboy.showappdemo.view.AsmListView
+        android:id="@+id/menulistview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:choiceMode="singleChoice"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical"
+        android:scrollbarSize="5dp"
+        android:overScrollMode="ifContentScrolls"
+        android:divider="@android:color/transparent" />
+
+    <com.readboy.showappdemo.view.AsmListView
+        android:id="@+id/textlistview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:choiceMode="singleChoice"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical"
+        android:scrollbarSize="5dp"
+        android:overScrollMode="ifContentScrolls"
+        android:divider="@android:color/transparent" />
+
+    <com.readboy.showappdemo.view.AsmScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:scrollbarStyle="insideInset"
+		android:scrollbars="vertical"
+		android:scrollbarSize="5dp"
+		android:overScrollMode="ifContentScrolls" >
+
+        <com.readboy.showappdemo.view.AsmSteerTextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="10dp"
+			android:lineSpacingMultiplier="1.0"
+            android:textColor="#00000000"
+            android:editable="false"
+            android:textSize="24dp" />
+        
+    </com.readboy.showappdemo.view.AsmScrollView>
+    
+    <Button
+        android:id="@+id/btn_entergame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/btn_entergame_x"
+        android:layout_marginTop="@dimen/btn_entergame_y"
+        android:background="@drawable/btn_entergame_selector" />
+    
+    <Button
+        android:visibility="gone"
+        android:id="@+id/btn_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/btn_search_x"
+        android:layout_marginTop="@dimen/btn_search_y"
+        android:background="@drawable/btn_search_selector" />
+    
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/img_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/img_search_x"
+        android:layout_marginTop="@dimen/img_search_y"
+        android:contentDescription="@string/app_name" />
+    
+    <AutoCompleteTextView
+        android:visibility="gone"
+        android:id="@+id/txt_search"
+        android:layout_width="@dimen/txt_search_w"
+        android:layout_height="@dimen/txt_search_h"
+        android:layout_marginLeft="@dimen/txt_search_x"
+        android:layout_marginTop="@dimen/txt_search_y"
+        android:hint="@string/search_hint"
+        android:singleLine="true"
+        android:maxLength="10"
+        android:dropDownSelector="@drawable/list_search_down_selector"
+        android:dropDownVerticalOffset="2dp"
+        android:background="@color/search_bg" />
+
+</RelativeLayout>

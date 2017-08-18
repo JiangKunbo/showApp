@@ -1,0 +1,10 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/quci_item"
+    android:layout_width="144dp"
+    android:layout_height="58dp"
+    android:gravity="center"
+    android:singleLine="true"
+    android:ellipsize="marquee" 
+    android:marqueeRepeatLimit="marquee_forever"
+	android:textColor="#ffffffff"
+    android:textSize="24dp" />

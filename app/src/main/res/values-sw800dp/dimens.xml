@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="panel_w">1280dp</dimen>
+    <dimen name="panel_h">800dp</dimen>
+    
+    <dimen name="btn_quci_x">1100dp</dimen>
+    <dimen name="btn_quci_y">70dp</dimen>
+    
+    <dimen name="btn_exit_x">1188dp</dimen>
+    <dimen name="btn_exit_y">0dp</dimen>
+    
+    <dimen name="btn_entergame_x">120dp</dimen>
+    <dimen name="btn_entergame_y">600dp</dimen>
+
+    <dimen name="btn_search_x">1117dp</dimen>
+    <dimen name="btn_search_y">61dp</dimen>
+
+    <dimen name="img_search_x">747dp</dimen>
+    <dimen name="img_search_y">61dp</dimen>
+
+    <dimen name="txt_search_x">797dp</dimen>
+    <dimen name="txt_search_y">76dp</dimen>
+    <dimen name="txt_search_w">290dp</dimen>
+    <dimen name="txt_search_h">35dp</dimen>
+
+    <dimen name="btn_search_confirm_x">547dp</dimen>
+    <dimen name="btn_search_confirm_y">440dp</dimen>
+    
+    <dimen name="datatype4_title_x">751dp</dimen>
+    <dimen name="datatype4_title_y">100dp</dimen>
+    <dimen name="datatype4_title_w">120dp</dimen>
+    <dimen name="datatype4_title_h">40dp</dimen>
+    
+    <dimen name="datatype4_list_x">705dp</dimen>
+    <dimen name="datatype4_list_y">240dp</dimen>
+    <dimen name="datatype4_list_w">935dp</dimen>
+    <dimen name="datatype4_list_h">660dp</dimen>
+    
+    <dimen name="datatype5_title_x">780dp</dimen>
+    <dimen name="datatype5_title_y">180dp</dimen>
+    <dimen name="datatype5_title_w">80dp</dimen>
+    <dimen name="datatype5_title_h">40dp</dimen>
+    
+    <dimen name="datatype5_style1_poem_x">250dp</dimen>
+    <dimen name="datatype5_style1_poem_y">241dp</dimen>
+    <dimen name="datatype5_style1_poem_w">1134dp</dimen>
+    <dimen name="datatype5_style1_poem_h">40dp</dimen>
+    
+    <dimen name="datatype5_style1_translate_x">550dp</dimen>
+    <dimen name="datatype5_style1_translate_y">320dp</dimen>
+    <dimen name="datatype5_style1_translate_w">1134dp</dimen>
+    <dimen name="datatype5_style1_translate_h">680dp</dimen>
+    
+    <dimen name="datatype5_style2_poem1_x">250dp</dimen>
+    <dimen name="datatype5_style2_poem1_y">241dp</dimen>
+    <dimen name="datatype5_style2_poem1_w">1134dp</dimen>
+    <dimen name="datatype5_style2_poem1_h">40dp</dimen>
+    
+    <dimen name="datatype5_style2_poem2_x">250dp</dimen>
+    <dimen name="datatype5_style2_poem2_y">275dp</dimen>
+    <dimen name="datatype5_style2_poem2_w">1134dp</dimen>
+    <dimen name="datatype5_style2_poem2_h">40dp</dimen>
+    
+    <dimen name="datatype5_style2_translate_x">550dp</dimen>
+    <dimen name="datatype5_style2_translate_y">350dp</dimen>
+    <dimen name="datatype5_style2_translate_w">1134dp</dimen>
+    <dimen name="datatype5_style2_translate_h">680dp</dimen>
+</resources>

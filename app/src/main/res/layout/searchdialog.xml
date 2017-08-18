@@ -1,0 +1,19 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/search_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:splitMotionEvents="false"
+    android:background="@drawable/search_dialog_bg"
+    tools:context="AsmAppActivity" >
+    
+    <Button
+        android:id="@+id/btn_search_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/btn_search_confirm_x"
+        android:layout_marginTop="@dimen/btn_search_confirm_y"
+        android:background="@drawable/btn_search_confirm_selector" />
+
+</RelativeLayout>

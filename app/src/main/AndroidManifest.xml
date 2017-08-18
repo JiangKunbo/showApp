@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.readboy.showappdemo"
+    android:versionCode="160512001"
+    android:versionName="1.15.12.18">
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- 添加需要的权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <application
+        android:name=".AsmApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".AsmAppActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|fontScale"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="adjustNothing">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="com.readboy.application" />
+            </intent-filter>
+            -->
+
+            <intent-filter>
+                <action android:name="com.readboy.asmapp" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.CREATE_RBSHORTCUT" />
+                <action android:name="com.readboy.application" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="com.readboy.chinese.application" />
+            </intent-filter>
+
+        </activity>
+        <!--<activity android:name=".MainActivity"-->
+            <!--android:theme="@style/Theme.AppCompat.Light.NoActionBar">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+                <!--<action android:name="com.readboy.application" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+
+        <service
+            android:name="com.loveplusplus.update.DownloadService"
+            android:enabled="true"
+            android:process=":dlservice"></service>
+
+        <activity
+            android:name="com.loveplusplus.update.DialogActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Holo.Light.Dialog"></activity>
+
+    </application>
+
+</manifest>

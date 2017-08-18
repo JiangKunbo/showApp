@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 英文参数 -->
+    <integer-array name="dict_search_eng_id">
+       <item >2</item>
+       <item >9</item>
+       <item >10</item>
+	</integer-array>
+
+    <!-- 中文参数 -->
+	<integer-array name="dict_select_chi_id">
+       <item >5</item>
+       <item >1</item>
+       <item >6</item>
+	</integer-array>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/quci_dialog"
+    android:layout_width="593dp"
+    android:layout_height="196dp"
+	android:background="@drawable/quci_dialog_bg" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="11dp" >
+
+        <ScrollView
+			android:layout_width="405dp"
+			android:layout_height="match_parent"
+			android:layout_marginLeft="10dp"
+			android:layout_marginTop="10dp"
+			android:layout_marginBottom="10dp" >
+	
+		    <TextView
+		        android:id="@+id/quci_dialog_title"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginRight="10dp"
+				android:scrollbarStyle="insideInset"
+				android:overScrollMode="ifContentScrolls"
+				android:lineSpacingExtra="10dp"
+            	android:lineSpacingMultiplier="1.0"
+            	android:editable="false"
+				android:textSize="24dp"
+				android:textColor="#ff000000" />
+
+		</ScrollView>
+
+	    <ListView
+	        android:id="@+id/quci_dialog_list"
+			android:layout_width="144dp"
+			android:layout_height="match_parent"
+			android:layout_alignParentRight="true"
+			android:fadingEdge="none"
+			android:cacheColorHint="#00000000"
+			android:divider="@null"
+			android:textColor="#ffffffff"
+			android:choiceMode="singleChoice" />
+
+    </RelativeLayout>
+
+</FrameLayout>
